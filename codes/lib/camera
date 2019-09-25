@@ -1,0 +1,8 @@
+!!
+摄像头相关库
+@name camera
+!!
+if(__LIB_CAMERA__) then
+__LIB_CAMERA__=1
+
+endif

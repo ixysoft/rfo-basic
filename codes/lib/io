@@ -1,0 +1,10 @@
+!!
+io操作库,包含各种文件io操作
+@name   io
+@author Francis
+@date   2019-09-25
+@ver    0.0.1
+!!
+if(!__LIB_IO__) then
+__LIB_IO__=1
+endif

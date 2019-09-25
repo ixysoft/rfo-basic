@@ -1,0 +1,11 @@
+!!
+音频库
+@name   audio
+@author FrancisX
+@date   2019-09-25
+@ver    0.0.1
+!!
+if(!__LIB_AUDIO__) then
+__LIB_AUDIO__=1
+
+endif

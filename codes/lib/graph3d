@@ -1,0 +1,11 @@
+!!
+3D库,可以实现一些简单的3D图形的绘制
+@name   3d
+@author Francis
+@date   2019-09-25
+@ver    0.0.1
+!!
+if(!__LIB_GRAPH3D__) then
+__LIB_GRAPH3D__=1
+
+endif

@@ -1,0 +1,11 @@
+!!
+控制相关的函数
+@name   ctrl
+@author Francis
+@date   2019-09-25
+@ver    0.0.1
+!!
+if(__LIB_CTRL__) then
+__LIB_CTRL__=1
+
+endif

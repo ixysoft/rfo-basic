@@ -1,0 +1,15 @@
+!!
+各种编码解码及hash函数(base64,md5)
+!!
+if(!__LIB_CRYPT__) then
+__LIB_CRYPT__=1
+
+fn.def base64_encode$(str$)
+fn.end
+
+fn.def base64_decode$(str$)
+fn.end
+
+fn.def sha1(str$)
+fn.end
+endif

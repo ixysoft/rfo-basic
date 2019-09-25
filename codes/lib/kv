@@ -1,0 +1,10 @@
+!!
+kv数据存储库
+@name   kv
+@author FrancisX
+@date   2019-09-25
+@ver    0.0.1
+!!
+if(!__LIB_KV__)then
+__LIB_KV__=1
+endif

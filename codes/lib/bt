@@ -1,0 +1,7 @@
+!!
+蓝牙库
+@name bluetooth
+!!
+if(!__LIB_BLUETOORH__) then
+__LIB_BLUETOOTH__=1
+endif

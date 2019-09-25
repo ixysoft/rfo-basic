@@ -1,0 +1,13 @@
+!!
+时间相关的函数
+@name   time
+@author Francis
+@date   2019-09-25
+@ver    0.0.1
+!!
+if(!__LIB_TIME__) then
+__LIB_TIME__=1
+! 日期格式化,tm为指定时间毫秒数
+fn.def date$(fmt$,tm)
+fn.end
+endif

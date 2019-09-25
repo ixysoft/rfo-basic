@@ -1,0 +1,2 @@
+if(__RENDER__) then gr.render
+until 0

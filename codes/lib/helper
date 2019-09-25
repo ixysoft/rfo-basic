@@ -1,0 +1,17 @@
+!!
+一些辅助相关的函数
+@name   帮助库
+@author Francis
+@ver    0.0.1
+@date   2019-09-25
+!!
+if(!__LIB_HELPER__) then
+__LIB_HELPER__=1
+!!
+获取帮助信息函数,并直接输出,查询字段可以查询指定名称,指定文件名
+@param name$ 名称(name|filename.name|filename.*)
+!!
+fn.def help(name$)
+
+fn.end
+endif

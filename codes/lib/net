@@ -1,0 +1,6 @@
+!!
+各种网路操作
+!!
+if(!__LIB_NET__) then
+__LIB_NET__=1
+endif

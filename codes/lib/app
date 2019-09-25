@@ -1,0 +1,14 @@
+!!
+app相关的一些库
+!!
+if(!__LIB_APP__) then
+__LIB_APP__=1
+if(!__LIB_GRAPH__) then
+    include graph
+endif
+
+!=======一些默认常量========
+__BACK_COL__=c_white
+__FORE_COL__=c_black
+__FORE_FILL__=1
+endif

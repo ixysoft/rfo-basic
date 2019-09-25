@@ -1,0 +1,7 @@
+!!
+传感器相关的库
+@name sensor
+!!
+if(!__LIB_SENSOR__) then
+__LIB_SENSOR=1
+endif

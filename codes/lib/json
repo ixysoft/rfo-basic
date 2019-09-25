@@ -1,0 +1,16 @@
+!!
+json解析编码库
+@name   json库
+@author Francis
+@date   2019-09-25
+@ver    0.0.1
+!!
+if(!__LIB_JSON__) then
+__LIB_JSON__=1
+
+fn.def json_encode(bd)
+fn.end
+
+fn.def json_decode(json$)
+fn.end
+endif

@@ -1,0 +1,30 @@
+!!
+图形初始化部分,在这部分将初始化屏幕相关的参数
+!!
+if(!__LIB_GR_INIT__) then
+__LIB_GR_INIT__=1
+if(!__LIB_GRAPH__) then % 没有导入graph文件,该部分依赖于graph
+  include graph
+endif
+
+if(__LIB_GAME__) then       % 游戏模式下的配置
+    include game
+else % 非游戏模式
+    include app
+endif
+
+
+if(back_col) then % 设置背景颜色
+endif
+
+if(fore_col) then % 设置前进颜色
+endif
+
+if(fore_fill) then % 设置画笔填充
+endif
+
+if(fore_stroke) then % 设置画笔宽度
+endif
+
+
+endif

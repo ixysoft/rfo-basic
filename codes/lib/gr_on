@@ -1,0 +1,2 @@
+do
+if(__CLS__) then gr.cls

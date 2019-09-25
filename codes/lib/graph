@@ -1,0 +1,65 @@
+!!
+@name   图形库
+@desc   图形绘制相关的操作
+@author Francis
+@ver    0.0.1
+@date   2019-09-25
+!!
+if(!__GRAPH__) then
+__GRAPH__=1
+if(!__KV__) then %graph依赖于kv库
+    include kv
+endif
+fn.def rgb(r,g,b)
+fn.end
+
+fn.def rgba(r,g,b,a)
+fn.end
+
+fn.def get_red(col)
+fn.end
+
+fn.def get_green(col)
+fn.end
+
+fn.def get_blue(col)
+fn.end
+
+fn.def color(col,f)
+fn.end
+
+fn.def pen(col)
+fn.end
+
+fn.def brush(col)
+fn.end
+!=====状态常数=============================
+!通用状态on/off
+ST_ON=1
+ST_OFF=0
+!触摸状态
+TOUCH_START=1   % 开始触摸
+TOUCH_OVER=3    % 移动
+TOUCH_LEAVE=2   % 离开
+TOUCH_OUT=0     % 彻底离开
+!=====颜色常数=============================
+c_white=rgb(255,255,255)
+c_black=rgb(0,0,0)
+c_red=rgb(255,0,0)
+c_green=rgb(0,255,0)
+c_gray=rgb(66,66,66)
+c_blue=rgb(0,0,255)
+!=====初始常量=============================
+__CLS__=1               % 清屏
+__RENDER__=1            % 刷新
+__GAME__=1              % 游戏模式
+__FPS__=30              % 默认帧率
+__SCROLL__=0            % 滚动模式
+__BACK_COL=c_black      % 背景默认黑色
+__FORE_COL=c_white      % 画笔默认白色
+__FORE_FILL=1           % 默认填充
+__EN_3D__=0             % 导入3d库
+__EN_AUDIO__=1          % 导入音频库
+__EN_TIME__=1           % 导入时间函数
+!==========================================
+endif
